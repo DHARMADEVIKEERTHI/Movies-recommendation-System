@@ -36,10 +36,15 @@ movieId,title,genres
 
 ### 🧩 Project Structure
 📁 Movie Recommendation System
+
 ├── movies.py                 # Streamlit main app
+
 ├── movies.csv                # Dataset (movie info)
+
 ├── ratings.csv               # Optional dataset (user ratings)
+
 ├── python.ipynb              # Model development notebook
+
 └── README.md                 # Project documentation
 
 ### 🧮 How It Works
@@ -55,6 +60,7 @@ When a user selects a movie, the app recommends the top N most similar ones
 ### 🧑‍💻 Example Output
 
 Input: Toy Story (1995)
+
 Recommendations:
 
 Jumanji (1995)
