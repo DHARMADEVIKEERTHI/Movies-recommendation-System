@@ -66,11 +66,15 @@ movieId,title,genres
 ## 🧑‍💻 Example Output
 **Input:** `Toy Story (1995)`  
 **Recommendations:**  
-- Jumanji (1995)  
-- Aladdin (1992)  
-- The Lion King (1994)  
-- Shrek (2001)  
-- Monsters, Inc. (2001)
+- 1. Emperor's New Groove, The (2000)
+- 2. Adventures of Rocky and Bullwinkle, The (2000)
+- 3. Toy Story 2 (1999)
+- 4. Asterix and the Vikings (2006)
+- 5. Antz (1998)
+- 6. Wild, The (2006)
+- 7. Shrek the Third (2007)
+- 8. The Good Dinosaur (2015)
+- 9. Monsters, Inc. (2001)
 
 ---
 
