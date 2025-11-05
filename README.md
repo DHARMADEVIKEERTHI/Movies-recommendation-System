@@ -1,1 +1,94 @@
-# Movies-recommendation-System
+# 🎬 Movie Recommendation System
+### 📖 Overview
+
+This project is a content-based movie recommendation system built using Python, Streamlit, and Machine Learning techniques.
+It recommends movies similar to the one selected by the user based on genre similarity using TF-IDF Vectorization and Cosine Similarity.
+
+### 🚀 Features
+
+✅ Recommend movies similar to a selected title
+✅ Interactive web interface using Streamlit
+✅ Uses TF-IDF for text feature extraction
+✅ Computes similarity using Cosine Similarity
+✅ Simple and lightweight — works with CSV data
+
+### 🧠 Tech Stack
+Tool	Purpose
+Python	Programming Language
+Streamlit	Web Application Framework
+scikit-learn	TF-IDF and Cosine Similarity
+Pandas	Data Handling
+NumPy	Numerical Computation
+📂 Dataset
+
+The project uses two CSV files:
+
+movies.csv → Contains movie IDs, titles, and genres
+
+ratings.csv → (Optional) Contains user ratings for future collaborative filtering extensions
+
+Example structure of movies.csv:
+
+movieId,title,genres
+1,Toy Story (1995),Adventure|Animation|Children|Comedy|Fantasy
+2,Jumanji (1995),Adventure|Children|Fantasy
+3,Grumpier Old Men (1995),Comedy|Romance
+
+### 🧩 Project Structure
+📁 Movie Recommendation System
+├── movies.py                 # Streamlit main app
+├── movies.csv                # Dataset (movie info)
+├── ratings.csv               # Optional dataset (user ratings)
+├── python.ipynb              # Model development notebook
+└── README.md                 # Project documentation
+
+### 🧮 How It Works
+
+Load movies.csv into a Pandas DataFrame
+
+Use TF-IDF Vectorizer to convert genres text into numerical features
+
+Compute Cosine Similarity between movie vectors
+
+When a user selects a movie, the app recommends the top N most similar ones
+
+### 🧑‍💻 Example Output
+
+Input: Toy Story (1995)
+Recommendations:
+
+Jumanji (1995)
+
+Aladdin (1992)
+
+The Lion King (1994)
+
+Shrek (2001)
+
+Monsters, Inc. (2001)
+
+### 🌐 Deployment
+
+To deploy on Streamlit Community Cloud:
+
+Push your code and data files to GitHub
+
+Go to streamlit.io/cloud
+
+Connect your GitHub repo and choose movies.py as the main file
+
+Deploy 🎉
+
+### 🏆 Future Improvements
+
+Add user-based or item-based collaborative filtering
+
+Include movie descriptions and tags for better context
+
+Integrate TMDb API for fetching posters and metadata
+
+Improve UI with movie thumbnails and additional filters
+
+### 🪄 Acknowledgments
+
+Special thanks to the open-source community and datasets used for building and testing this system.
